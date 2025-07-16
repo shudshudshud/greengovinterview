@@ -1,0 +1,20 @@
+{
+    "name": "psso-deep-dive",
+    "version": "1.0.0",
+    "description": "Product Strategy for GreenGov.SG - PSSO Deep Dive",
+    "main": "index.html",
+    "scripts": {
+      "dev": "python -m http.server 8000",
+      "build": "echo 'Static site - no build needed'",
+      "start": "python -m http.server 8000"
+    },
+    "keywords": [
+      "govtech",
+      "sustainability",
+      "product-management",
+      "greengov",
+      "singapore"
+    ],
+    "author": "Muhammad Irsyad Bin Mohd Ramthan",
+    "license": "MIT"
+  }
