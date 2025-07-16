@@ -377,6 +377,14 @@ footer {
     .content-grid {
         grid-template-columns: 1fr;
     }
+    
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
@@ -395,5 +403,23 @@ footer {
     
     .stat-item {
         padding: 15px;
+    }
+    
+    .content-card, .idea-card {
+        padding: 20px;
+    }
+    
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .timeline-marker {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .container {
+        padding: 0 15px;
     }
 }
